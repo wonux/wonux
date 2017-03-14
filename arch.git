@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/wonux/arch
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	
+[remote "backup"]
+	url = https://git.coding.net/wonux/arch.git
+	fetch = +refs/heads/*:refs/remotes/backup/*
+	url = https://git.oschina.net/wonux/arch.git

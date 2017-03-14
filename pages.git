@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://coding.net/wonux/pages.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "wonux"]
+	url = https://github.com/wonux/pages.git
+	fetch = +refs/heads/*:refs/remotes/wonux/*
+	url = https://coding.net/wonux/pages.git
+	url = https://git.oschina.net/wonux/pages.git
